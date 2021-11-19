@@ -22,7 +22,7 @@ export default function App() {
   }
 
   return (
-    <SafeAreaView>
+    <SafeAreaView style={{flex: 1}}>
         <StatusBar />
         <Cesta {...mock} />
         {/* declarar {...mock} é como estivesse fazendo topo={mock.topo} detalhes={mock.detalhes} */}
